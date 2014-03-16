@@ -1,4 +1,9 @@
 // test cases are described in fixtures.js
+
+var arrayWithValidElements = stringifiableValues;
+
+var objectWithInvalidAttributes = nonStringifiableValues;
+
 describe("stringifyJSON", function(){
   it("should match the result of calling JSON.stringify", function(){
 
